@@ -413,22 +413,22 @@ Ještě máte nějaké otázky? Navštivte support channel — @borodutch\\_supp
 
 لازال لديك اسئلة؟ تحقق من قناة الدعم — @borodutch\\_support. السورس كود مفتوح المصدر ويمكن العثور عليه [هنا](https://github.com/backmeupplz/shieldy). شكرأ! `,
   },
-    ro: `Shieldy — este cea mai bună soluție de a lupta cu spamerii enervanți de pe Telegram. Le cere nou veniților să execute un set de acțiuni într-o perioadă setată de timp, altfel le dă kick. Atât de simplu este. Asigură-te ca @shieldy\\_bot este admin pe grupul tau și asta e tot! Pentru setări avansate, folosește comenzile de mai jos:
+    ro: `Shieldy — este cea mai bună soluție de a lupta cu spamerii enervanți de pe Telegram. Le cere nou veniților să execute un set de acțiuni într-o perioadă setată de timp, altfel le dă kick. Atât de simplu este. Asigură-te ca @shieldy\\_bot este administrator pe grupul tau și asta e tot! Pentru setări avansate, folosește comenzile de mai jos:
 
 /help — arată acest mesaj
 /language — schimbă limba
 /captcha — schimbă tipul de captcha folosit
 /timeLimit — schimbă limita de timp acordată nou veniților
-/lock — face comenzile accesibile doar adminilor
+/lock — face comenzile accesibile doar administratorilor
 /restrict — restricționează nou veniții să trimită doar mesaje text în primele 24 de ore
-/deleteEntryMessages — șterge mesajele despre userii ce intră în grup
+/deleteEntryMessages — șterge mesajele despre utilizatorii ce intră în grup
 /greeting — salută utilizatorii ce au trecut testul
 /trust — raspunde cu această comanda unui mesaj trimis de un user pe care doresti să nu îl verifice bot-ul
-/strict — utilizează atunci când dorești sa nu primești nici un mesaj din partea userilor noi, ci doar soluții captcha până când aceștia trec de captcha
+/strict — utilizează atunci când dorești sa nu primești nici un mesaj din partea utilizatorilor noi, ci doar soluții captcha până când aceștia trec testul captcha
 /customCaptchaMessage — setează mesaj captcha custom
 /deleteGreetingTime — setează când se ștearge salutul lui Shieldy în secunde, precum \`/deleteGreetingTime 100\`. resetează setând valoarea 0
-/banUsers — alege între a bana sau la le da kick userilor
-/deleteEntryOnKick — șterge mesajul de întâmpinare pentru userii ce nu au trecut de captcha
+/banUsers — alege între a bana sau a le da kick utilizatorilor
+/deleteEntryOnKick — șterge mesajul de întâmpinare pentru utilizatorii ce nu au trecut testul captcha
 
 Still got questions? Check out the support channel — @borodutch\\_support. Shieldy code is open source and can be found [here](https://github.com/backmeupplz/shieldy). Thank you!`,
 
@@ -622,9 +622,9 @@ Vyberte prosím typ testu pro nováčky:
 • أرقام — سوف يطلب البوت حل معادلة بسيطة`,
     ro: `Selectează tipul de test pentru nou veniți:
 
-• Simplu — bot-ul va cere userului să trimită orice în chat
-• Buton — bot-ul va cere userului să apese un buton
-• Cifre — bot-ul va cere userului să rezolve o simplă operație aritmetică`,
+• Simplu — bot-ul va cere utilizatorului să trimită orice în chat
+• Buton — bot-ul va cere utilizatorului să apese un buton
+• Cifre — bot-ul va cere utilizatorului să rezolve o simplă operație aritmetică`,
   },
   simple: {
     ruen: 'Simple/Простая',
@@ -756,7 +756,7 @@ Vyberte prosím typ testu pro nováčky:
       'Prosím, zvolte kolik sekund bude mít nováček na splnění testu, než bude vyhozen.',
     ar:
       'من فضلك، حدد عدد الثواني التي يمكن للأعضاء الجدد إكمال الاختبار خلالها قبل طردهم.',
-    ro: 'Te rog selectează câte secunde au la dispoziție userii noi să completeze testul, înainte sa fi dați afară.',
+    ro: 'Te rog selectează câte secunde au la dispoziție utilizatorii noi să completeze testul, înainte de a fi dați afară.',
   },
   time_limit_selected: {
     ruen:
@@ -831,7 +831,7 @@ Vyberte prosím typ testu pro nováčky:
       'Great! Now I will only react to commands sent by admins. Skvělé! Nyní budu reagovat pouze na příkazy poslané správci.',
     cz: 'Skvělé! Nyní budu reagovat pouze na příkazy poslané správci.',
     ar: 'رائع ! الآن سوف أتفاعل فقط مع الأوامر المرسلة من قبل المسؤولين.',
-    ro: 'Super! Acum o să reacționez doar la comenzile date de către admini.',
+    ro: 'Super! Acum o să reacționez doar la comenzile date de către administratori.',
   },
   lock_false: {
     ruen:
